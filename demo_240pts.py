@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 240点人脸关键点 Demo
-逆向分析来源: demo/ios/FACameraDemo/FAGL/FAKGDetect.mm
 
 V014D1A07 模型实际拥有 4 个输出张量:
   "landmark" : [1, 212, 1, 1]  → 106 基础点 × (x,y)
@@ -16,7 +15,7 @@ V014D1A07 模型实际拥有 4 个输出张量:
   extend_point[57..69]  = 右眉毛 13pts
   extend_point[70..133] = 嘴唇 64pts (上唇/下唇/嘴角)
 
-FAKGDetect.mm 中的重排序映射已在 build_240_points() 中完整复现。
+重排序映射已在 build_240_points() 中完整复现。
 
 运行:
   source venv_mnn/bin/activate
