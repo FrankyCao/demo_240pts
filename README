@@ -18,3 +18,7 @@ V014D1A07 模型实际拥有 4 个输出张量:
 运行:
   source venv_mnn/bin/activate
   python3 demo_240pts.py [--image 1.jpg]
+
+## The result:
+
+<img src="result_4d_240pts_labeled.jpg" width = "500" height = "700" alt="图片名称" align=center />
