@@ -21,4 +21,4 @@ V014D1A07 模型实际拥有 4 个输出张量:
 
 ## The result:
 
-<img src="https://github.com/FrankyCao/demo_240pts/blob/main/result_4d_240pts_labeled.jpg" width = "500" height = "700" alt="图片名称" align=center />
+<img src="result_4d_240pts_labeled.jpg" width = "500" height = "500" alt="图片名称" align=center />
